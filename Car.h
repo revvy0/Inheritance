@@ -10,7 +10,7 @@ private:
 
 public:
   Car(const string manufacturer, int yearBuilt, int doorNums);
-  int getDoorNums() const;
+  int getDoorNum() const;
   void setDoorNum(int doorNums);
   void displayInfo() const override;
 }
