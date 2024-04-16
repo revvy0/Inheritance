@@ -5,7 +5,7 @@ using namespace std;
 
 Car::Car(const string manufacturer, int yearBuilt, int doorNums) : Vehicle(manufacturer, yearBuilt), doorNums(doorNums) {}
 
-int Car::getdoorNum() const {
+int Car::getDoorNum() const {
   return doorNums;
 }
 void Car::setDoorNums(int doorNums) {
