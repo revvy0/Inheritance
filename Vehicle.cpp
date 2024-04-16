@@ -3,7 +3,7 @@
 
 using namespace std;
 
-Vehicle::Vehicle(const string manufacturer, int yearBuilt) : manufacturer(manufacturer), yearbuilt(yearBuilt) {}
+Vehicle::Vehicle(const string manufacturer, int yearBuilt) : manufacturer(manufacturer), yearBuilt(yearBuilt) {}
 
 string Vehicle::getManufacturer() const { // get the manufacturer
   return manufacturer;
