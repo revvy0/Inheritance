@@ -12,8 +12,8 @@ public:
   Car(const string manufacturer, int yearBuilt, int doorNums);
   int getDoorNum() const;
   void setDoorNum(int doorNums);
-  void displayInfo() const override;
-}
+  void displayInfo() const;
+};
 #endif // CAR_H
 // same as vehicle.h even though vehicle.h is present in this file.
 // assumed use will be in car.cpp and main?
