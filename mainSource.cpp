@@ -12,27 +12,42 @@ int main() {
   // This is for Vehicle
   string manufacturer;
   int yearBuilt;
-  cout << "Who is the manufacturer of (VEHICLE): ";
-  cin.ignore();
+  cout << "Vehicle:";
+  cout << "\nEnter the manufacturer: ";
   getline(cin, manufacturer);
-  cout << endl;
-  cout << "What year was this vehicle built: ";
+  cout << "\nEnter the year built: ";
   cin >> yearBuilt;
+  cin.ignore();
   Vehicle vehicle(manufacturer, yearBuilt);
-  cout << "Info entered: " << endl;
+  cout << "\nInfo entered: " << endl;
   vehicle.displayInfo();
+
   // This is for Car
   int doorNums;
-  cout << "How many doors: ";
+  cout << "\nCar:";
+  cout << "\nEnter the manufacturer: ";
+  getline(cin, manufacturer);
+  cout << "\nEnter the year built: ";
+  cin >> yearBuilt; 
+  cout << "\nHow many doors: ";
   cin >> doorNums;
+  cin.ignore();
   Car car(manufacturer, yearBuilt, doorNums);
-  cout << "Info for car entered: " << endl;
+  cout << "\nInfo for car entered: " << endl;
   car.displayInfo();
+  
   // This is for Truck
   int towingCapacity;
-  cout << "Towing Capacity for Truck: " << endl;
+  cout << "\nTruck:";
+  cout << "\nEnter the manufacturer: ";
+  getline(cin, manufacturer);
+  cout << "\nEnter the year built: ";
+  cin >> yearBuilt;
+  cout << "\nEnter the towing capacity: ";
   cin >> towingCapacity;
+  cin.ignore();
   Truck truck(manufacturer, yearBuilt, towingCapacity);
-  cout << "Info for truck entered: " << endl;
+  cout << "\nInfo for truck entered: " << endl;
   truck.displayInfo();
 }
+
