@@ -32,7 +32,7 @@ int main() {
   int towingCapacity;
   cout << "Towing Capacity for Truck: " << endl;
   cin >> towingCapacity;
-  Truck truck::(manufacturer, yearBuilt, towingCapacity);
+  Truck truck(manufacturer, yearBuilt, towingCapacity);
   cout << "Info for truck entered: " << endl;
   truck.displayInfo();
 }
