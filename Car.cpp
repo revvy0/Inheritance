@@ -8,7 +8,7 @@ Car::Car(const string manufacturer, int yearBuilt, int doorNums) : Vehicle(manuf
 int Car::getDoorNum() const {
   return doorNums;
 }
-void Car::setDoorNums(int doorNums) {
+void Car::setDoorNum(int doorNums) {
   this->doorNums = doorNums;
 }
 void Car::displayInfo() const {
