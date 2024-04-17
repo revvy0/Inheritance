@@ -12,9 +12,9 @@ void Vehicle::setManufacturer(const string manufacturer) { // setting manufactur
   this->manufacturer = manufacturer; // navigating
 }
 int Vehicle::getYearBuilt() const { // get the year built
-  return yearBuilt;
+	return yearBuilt;
 }
-void Vehicle::setYearBuild(int yearBuilt) { // set year built
+void Vehicle::setYearBuilt(int yearBuilt) { // set year built
   this->yearBuilt = yearBuilt;
 }
 void Vehicle::displayInfo() const { // displaying the info gathered from previous functions
